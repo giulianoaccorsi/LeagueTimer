@@ -1,0 +1,63 @@
+{
+    "data": [{
+        "id": "SummonerBarrier",
+            "name": "Barreira",
+            "cooldown": 180,
+            "key": 21
+        },
+        {
+            "id": "SummonerBoost",
+            "name": "Purificar",
+            "cooldown": 210,
+            "key": 1
+        },
+        {
+            "id": "SummonerDot",
+            "name": "Incendiar",
+            "cooldown": 180,
+            "key": 14
+        },
+        {
+            "id": "SummonerExhaust",
+            "name": "Exaustão",
+            "cooldown": 210,
+            "key": 3
+        },
+        {
+            "id": "SummonerFlash",
+            "name": "Flash",
+            "cooldown": 300,
+            "key": 4
+        },
+        {
+            "id": "SummonerHaste",
+            "name": "Fantasma",
+            "cooldown": 180,
+            "key": 6
+        },
+        {
+            "id": "SummonerHeal",
+            "name": "Curar",
+            "cooldown": 240,
+            "key": 7
+        },
+        {
+             "id": "SummonerMana",
+            "name": "Clareza",
+            "cooldown": 240,
+            "key": 13
+        },
+        {
+            "id": "SummonerSmite",
+            "name": "Golpear",
+            "cooldown": 15,
+            "key": 11
+        },
+        {
+            "id": "SummonerTeleport",
+            "name": "Teleporte",
+            "cooldown": 300,
+            "key": 12
+        }
+    ]
+}

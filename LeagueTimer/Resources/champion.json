@@ -1,0 +1,1039 @@
+{
+    "champion": [{
+            "id": "Aatrox",
+            "key": "266",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Ahri",
+            "key": "103",
+            "cooldownLevel6": 130,
+            "cooldownLevel11": 105,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Akali",
+            "key": "84",
+            "cooldownLevel6": 100,
+            "cooldownLevel11": 80,
+            "cooldownLevel16": 60
+        },
+        {
+            "id": "Alistar",
+            "key": "12",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Amumu",
+            "key": "32",
+            "cooldownLevel6": 150,
+            "cooldownLevel11": 125,
+            "cooldownLevel16": 100
+        },
+        {
+            "id": "Anivia",
+            "key": "34",
+            "cooldownLevel6": 6,
+            "cooldownLevel11": 6,
+            "cooldownLevel16": 6
+        },
+        {
+            "id": "Annie",
+            "key": "1",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Aphelios",
+            "key": "523",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 110,
+            "cooldownLevel16": 100
+        },
+        {
+            "id": "Ashe",
+            "key": "22",
+            "cooldownLevel6": 100,
+            "cooldownLevel11": 90,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "AurelionSol",
+            "key": "136",
+            "cooldownLevel6": 110,
+            "cooldownLevel11": 90,
+            "cooldownLevel16": 70
+        },
+        {
+            "id": "Azir",
+            "key": "268",
+            "cooldownLevel6": 129,
+            "cooldownLevel11": 105,
+            "cooldownLevel16": 90
+        },
+        {
+            "id": "Bard",
+            "key": "432",
+            "cooldownLevel6": 110,
+            "cooldownLevel11": 95,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Blitzcrank",
+            "key": "53",
+            "cooldownLevel6": 60,
+            "cooldownLevel11": 40,
+            "cooldownLevel16": 20
+        },
+        {
+            "id": "Brand",
+            "key": "63",
+            "cooldownLevel6": 105,
+            "cooldownLevel11": 90,
+            "cooldownLevel16": 75
+        },
+        {
+            "id": "Braum",
+            "key": "201",
+            "cooldownLevel6": 140,
+            "cooldownLevel11": 120,
+            "cooldownLevel16": 100
+        },
+        {
+            "id": "Caitlyn",
+            "key": "51",
+            "cooldownLevel6": 90,
+            "cooldownLevel11": 75,
+            "cooldownLevel16": 60
+        },
+        {
+            "id": "Camille",
+            "key": "164",
+            "cooldownLevel6": 140,
+            "cooldownLevel11": 115,
+            "cooldownLevel16": 90
+        },
+        {
+            "id": "Cassiopeia",
+            "key": "69",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Chogath",
+            "key": "31",
+            "cooldownLevel6": 80,
+            "cooldownLevel11": 80,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Corki",
+            "key": "42",
+            "cooldownLevel6": 12,
+            "cooldownLevel11": 11,
+            "cooldownLevel16": 10
+        },
+        {
+            "id": "Darius",
+            "key": "122",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Diana",
+            "key": "131",
+            "cooldownLevel6": 100,
+            "cooldownLevel11": 90,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Draven",
+            "key": "119",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "DrMundo",
+            "key": "36",
+            "cooldownLevel6": 110,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 90
+        },
+        {
+            "id": "Ekko",
+            "key": "245",
+            "cooldownLevel6": 110,
+            "cooldownLevel11": 80,
+            "cooldownLevel16": 50
+        },
+        {
+            "id": "Elise",
+            "key": "60",
+            "cooldownLevel6": 4,
+            "cooldownLevel11": 4,
+            "cooldownLevel16": 4
+        },
+        {
+            "id": "Evelynn",
+            "key": "28",
+            "cooldownLevel6": 140,
+            "cooldownLevel11": 110,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Ezreal",
+            "key": "81",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 120,
+            "cooldownLevel16": 120
+        },
+        {
+            "id": "Fiddlesticks",
+            "key": "9",
+            "cooldownLevel6": 140,
+            "cooldownLevel11": 110,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Fiora",
+            "key": "114",
+            "cooldownLevel6": 110,
+            "cooldownLevel11": 90,
+            "cooldownLevel16": 70
+        },
+        {
+            "id": "Fizz",
+            "key": "105",
+            "cooldownLevel6": 100,
+            "cooldownLevel11": 85,
+            "cooldownLevel16": 70
+        },
+        {
+            "id": "Galio",
+            "key": "3",
+            "cooldownLevel6": 200,
+            "cooldownLevel11": 180,
+            "cooldownLevel16": 160
+        },
+        {
+            "id": "Gangplank",
+            "key": "41",
+            "cooldownLevel6": 180,
+            "cooldownLevel11": 160,
+            "cooldownLevel16": 140
+        },
+        {
+            "id": "Garen",
+            "key": "86",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Gnar",
+            "key": "150",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Gragas",
+            "key": "79",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Graves",
+            "key": "104",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 90,
+            "cooldownLevel16": 60
+        },
+        {
+            "id": "Hecarim",
+            "key": "120",
+            "cooldownLevel6": 140,
+            "cooldownLevel11": 120,
+            "cooldownLevel16": 100
+        },
+        {
+            "id": "Heimerdinger",
+            "key": "74",
+            "cooldownLevel6": 100,
+            "cooldownLevel11": 85,
+            "cooldownLevel16": 70
+        },
+        {
+            "id": "Illaoi",
+            "key": "420",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 95,
+            "cooldownLevel16": 70
+        },
+        {
+            "id": "Irelia",
+            "key": "39",
+            "cooldownLevel6": 140,
+            "cooldownLevel11": 120,
+            "cooldownLevel16": 100
+        },
+        {
+            "id": "Ivern",
+            "key": "427",
+            "cooldownLevel6": 140,
+            "cooldownLevel11": 130,
+            "cooldownLevel16": 120
+        },
+        {
+            "id": "Janna",
+            "key": "40",
+            "cooldownLevel6": 150,
+            "cooldownLevel11": 135,
+            "cooldownLevel16": 120
+        },
+        {
+            "id": "JarvanIV",
+            "key": "59",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 105,
+            "cooldownLevel16": 90
+        },
+        {
+            "id": "Jax",
+            "key": "24",
+            "cooldownLevel6": 80,
+            "cooldownLevel11": 80,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Jayce",
+            "key": "126",
+            "cooldownLevel6": 6,
+            "cooldownLevel11": 6,
+            "cooldownLevel16": 6
+        },
+        {
+            "id": "Jhin",
+            "key": "202",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 105,
+            "cooldownLevel16": 90
+        },
+        {
+            "id": "Jinx",
+            "key": "222",
+            "cooldownLevel6": 90,
+            "cooldownLevel11": 75,
+            "cooldownLevel16": 60
+        },
+        {
+            "id": "Kaisa",
+            "key": "145",
+            "cooldownLevel6": 110,
+            "cooldownLevel11": 90,
+            "cooldownLevel16": 70
+        },
+        {
+            "id": "Kalista",
+            "key": "429",
+            "cooldownLevel6": 150,
+            "cooldownLevel11": 120,
+            "cooldownLevel16": 90
+        },
+        {
+            "id": "Karma",
+            "key": "43",
+            "cooldownLevel6": 42,
+            "cooldownLevel11": 39,
+            "cooldownLevel16": 36
+        },
+        {
+            "id": "Karthus",
+            "key": "30",
+            "cooldownLevel6": 200,
+            "cooldownLevel11": 180,
+            "cooldownLevel16": 160
+        },
+        {
+            "id": "Kassadin",
+            "key": "38",
+            "cooldownLevel6": 5,
+            "cooldownLevel11": 3.5,
+            "cooldownLevel16": 2
+        },
+        {
+            "id": "Katarina",
+            "key": "55",
+            "cooldownLevel6": 90,
+            "cooldownLevel11": 60,
+            "cooldownLevel16": 45
+        },
+        {
+            "id": "Kayle",
+            "key": "10",
+            "cooldownLevel6": 160,
+            "cooldownLevel11": 120,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Kayn",
+            "key": "141",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Kennen",
+            "key": "85",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 120,
+            "cooldownLevel16": 120
+        },
+        {
+            "id": "Khazix",
+            "key": "121",
+            "cooldownLevel6": 100,
+            "cooldownLevel11": 85,
+            "cooldownLevel16": 70
+        },
+        {
+            "id": "Kindred",
+            "key": "203",
+            "cooldownLevel6": 180,
+            "cooldownLevel11": 150,
+            "cooldownLevel16": 120
+        },
+        {
+            "id": "Kled",
+            "key": "240",
+            "cooldownLevel6": 160,
+            "cooldownLevel11": 140,
+            "cooldownLevel16": 120
+        },
+        {
+            "id": "KogMaw",
+            "key": "96",
+            "cooldownLevel6": 2,
+            "cooldownLevel11": 1.5,
+            "cooldownLevel16": 1
+        },
+        {
+            "id": "Leblanc",
+            "key": "7",
+            "cooldownLevel6": 60,
+            "cooldownLevel11": 45,
+            "cooldownLevel16": 30
+        },
+        {
+            "id": "LeeSin",
+            "key": "64",
+            "cooldownLevel6": 90,
+            "cooldownLevel11": 75,
+            "cooldownLevel16": 60
+        },
+        {
+            "id": "Leona",
+            "key": "89",
+            "cooldownLevel6": 90,
+            "cooldownLevel11": 75,
+            "cooldownLevel16": 60
+        },
+        {
+            "id": "Lissandra",
+            "key": "127",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Lucian",
+            "key": "236",
+            "cooldownLevel6": 110,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 90
+        },
+        {
+            "id": "Lulu",
+            "key": "117",
+            "cooldownLevel6": 110,
+            "cooldownLevel11": 95,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Lux",
+            "key": "99",
+            "cooldownLevel6": 80,
+            "cooldownLevel11": 60,
+            "cooldownLevel16": 40
+        },
+        {
+            "id": "Malphite",
+            "key": "54",
+            "cooldownLevel6": 130,
+            "cooldownLevel11": 105,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Malzahar",
+            "key": "90",
+            "cooldownLevel6": 140,
+            "cooldownLevel11": 110,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Maokai",
+            "key": "57",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "MasterYi",
+            "key": "11",
+            "cooldownLevel6": 85,
+            "cooldownLevel11": 85,
+            "cooldownLevel16": 85
+        },
+        {
+            "id": "MissFortune",
+            "key": "21",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 110,
+            "cooldownLevel16": 100
+        },
+        {
+            "id": "MonkeyKing",
+            "key": "62",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 105,
+            "cooldownLevel16": 90
+        },
+        {
+            "id": "Mordekaiser",
+            "key": "82",
+            "cooldownLevel6": 140,
+            "cooldownLevel11": 120,
+            "cooldownLevel16": 100
+        },
+        {
+            "id": "Morgana",
+            "key": "25",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 110,
+            "cooldownLevel16": 100
+        },
+        {
+            "id": "Nami",
+            "key": "267",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 110,
+            "cooldownLevel16": 100
+        },
+        {
+            "id": "Nasus",
+            "key": "75",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 120,
+            "cooldownLevel16": 120
+        },
+        {
+            "id": "Nautilus",
+            "key": "111",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Neeko",
+            "key": "518",
+            "cooldownLevel6": 90,
+            "cooldownLevel11": 90,
+            "cooldownLevel16": 90
+        },
+        {
+            "id": "Nidalee",
+            "key": "76",
+            "cooldownLevel6": 3,
+            "cooldownLevel11": 3,
+            "cooldownLevel16": 3
+        },
+        {
+            "id": "Nocturne",
+            "key": "56",
+            "cooldownLevel6": 150,
+            "cooldownLevel11": 125,
+            "cooldownLevel16": 100
+        },
+        {
+            "id": "Nunu",
+            "key": "20",
+            "cooldownLevel6": 110,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 90
+        },
+        {
+            "id": "Olaf",
+            "key": "2",
+            "cooldownLevel6": 100,
+            "cooldownLevel11": 90,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Orianna",
+            "key": "61",
+            "cooldownLevel6": 110,
+            "cooldownLevel11": 95,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Ornn",
+            "key": "516",
+            "cooldownLevel6": 140,
+            "cooldownLevel11": 120,
+            "cooldownLevel16": 100
+        },
+        {
+            "id": "Pantheon",
+            "key": "80",
+            "cooldownLevel6": 150,
+            "cooldownLevel11": 135,
+            "cooldownLevel16": 120
+        },
+        {
+            "id": "Poppy",
+            "key": "78",
+            "cooldownLevel6": 140,
+            "cooldownLevel11": 120,
+            "cooldownLevel16": 100
+        },
+        {
+            "id": "Pyke",
+            "key": "555",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Qiyana",
+            "key": "246",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Quinn",
+            "key": "133",
+            "cooldownLevel6": 3,
+            "cooldownLevel11": 3,
+            "cooldownLevel16": 3
+        },
+        {
+            "id": "Rakan",
+            "key": "497",
+            "cooldownLevel6": 130,
+            "cooldownLevel11": 110,
+            "cooldownLevel16": 90
+        },
+        {
+            "id": "Rammus",
+            "key": "33",
+            "cooldownLevel6": 100,
+            "cooldownLevel11": 80,
+            "cooldownLevel16": 60
+        },
+        {
+            "id": "RekSai",
+            "key": "421",
+            "cooldownLevel6": 100,
+            "cooldownLevel11": 90,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Renekton",
+            "key": "58",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 120,
+            "cooldownLevel16": 120
+        },
+        {
+            "id": "Rengar",
+            "key": "107",
+            "cooldownLevel6": 110,
+            "cooldownLevel11": 90,
+            "cooldownLevel16": 70
+        },
+        {
+            "id": "Riven",
+            "key": "92",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 90,
+            "cooldownLevel16": 60
+        },
+        {
+            "id": "Rumble",
+            "key": "68",
+            "cooldownLevel6": 100,
+            "cooldownLevel11": 85,
+            "cooldownLevel16": 70
+        },
+        {
+            "id": "Ryze",
+            "key": "13",
+            "cooldownLevel6": 210,
+            "cooldownLevel11": 180,
+            "cooldownLevel16": 150
+        },
+        {
+            "id": "Sejuani",
+            "key": "113",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Senna",
+            "key": "235",
+            "cooldownLevel6": 160,
+            "cooldownLevel11": 140,
+            "cooldownLevel16": 120
+        },
+        {
+            "id": "Sett",
+            "key": "875",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Shaco",
+            "key": "35",
+            "cooldownLevel6": 100,
+            "cooldownLevel11": 90,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Shen",
+            "key": "98",
+            "cooldownLevel6": 200,
+            "cooldownLevel11": 180,
+            "cooldownLevel16": 160
+        },
+        {
+            "id": "Shyvana",
+            "key": "102",
+            "cooldownLevel6": 1,
+            "cooldownLevel11": 1,
+            "cooldownLevel16": 1
+        },
+        {
+            "id": "Singed",
+            "key": "27",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 110,
+            "cooldownLevel16": 100
+        },
+        {
+            "id": "Sion",
+            "key": "14",
+            "cooldownLevel6": 140,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 60
+        },
+        {
+            "id": "Sivir",
+            "key": "15",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Skarner",
+            "key": "72",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Sona",
+            "key": "37",
+            "cooldownLevel6": 140,
+            "cooldownLevel11": 120,
+            "cooldownLevel16": 100
+        },
+        {
+            "id": "Soraka",
+            "key": "16",
+            "cooldownLevel6": 160,
+            "cooldownLevel11": 145,
+            "cooldownLevel16": 130
+        },
+        {
+            "id": "Swain",
+            "key": "50",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 120,
+            "cooldownLevel16": 120
+        },
+        {
+            "id": "Sylas",
+            "key": "517",
+            "cooldownLevel6": 100,
+            "cooldownLevel11": 80,
+            "cooldownLevel16": 60
+        },
+        {
+            "id": "Syndra",
+            "key": "134",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "TahmKench",
+            "key": "223",
+            "cooldownLevel6": 140,
+            "cooldownLevel11": 130,
+            "cooldownLevel16": 120
+        },
+        {
+            "id": "Taliyah",
+            "key": "163",
+            "cooldownLevel6": 180,
+            "cooldownLevel11": 150,
+            "cooldownLevel16": 120
+        },
+        {
+            "id": "Talon",
+            "key": "91",
+            "cooldownLevel6": 100,
+            "cooldownLevel11": 80,
+            "cooldownLevel16": 60
+        },
+        {
+            "id": "Taric",
+            "key": "44",
+            "cooldownLevel6": 180,
+            "cooldownLevel11": 150,
+            "cooldownLevel16": 120
+        },
+        {
+            "id": "Teemo",
+            "key": "17",
+            "cooldownLevel6": 30,
+            "cooldownLevel11": 25,
+            "cooldownLevel16": 20
+        },
+        {
+            "id": "Thresh",
+            "key": "412",
+            "cooldownLevel6": 140,
+            "cooldownLevel11": 120,
+            "cooldownLevel16": 100
+        },
+        {
+            "id": "Tristana",
+            "key": "18",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 110,
+            "cooldownLevel16": 100
+        },
+        {
+            "id": "Trundle",
+            "key": "48",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Tryndamere",
+            "key": "23",
+            "cooldownLevel6": 110,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 90
+        },
+        {
+            "id": "TwistedFate",
+            "key": "4",
+            "cooldownLevel6": 180,
+            "cooldownLevel11": 150,
+            "cooldownLevel16": 120
+        },
+        {
+            "id": "Twitch",
+            "key": "29",
+            "cooldownLevel6": 90,
+            "cooldownLevel11": 90,
+            "cooldownLevel16": 90
+        },
+        {
+            "id": "Udyr",
+            "key": "77",
+            "cooldownLevel6": 6,
+            "cooldownLevel11": 6,
+            "cooldownLevel16": 6
+        },
+        {
+            "id": "Urgot",
+            "key": "6",
+            "cooldownLevel6": 100,
+            "cooldownLevel11": 85,
+            "cooldownLevel16": 70
+        },
+        {
+            "id": "Varus",
+            "key": "110",
+            "cooldownLevel6": 130,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 70
+        },
+        {
+            "id": "Vayne",
+            "key": "67",
+            "cooldownLevel6": 100,
+            "cooldownLevel11": 85,
+            "cooldownLevel16": 70
+        },
+        {
+            "id": "Veigar",
+            "key": "45",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Velkoz",
+            "key": "161",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Vi",
+            "key": "254",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Viktor",
+            "key": "112",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 100,
+            "cooldownLevel16": 80
+        },
+        {
+            "id": "Vladimir",
+            "key": "8",
+            "cooldownLevel6": 150,
+            "cooldownLevel11": 135,
+            "cooldownLevel16": 120
+        },
+        {
+            "id": "Volibear",
+            "key": "106",
+            "cooldownLevel6": 160,
+            "cooldownLevel11": 140,
+            "cooldownLevel16": 120
+        },
+        {
+            "id": "Warwick",
+            "key": "19",
+            "cooldownLevel6": 110,
+            "cooldownLevel11": 90,
+            "cooldownLevel16": 70
+        },
+        {
+            "id": "Xayah",
+            "key": "498",
+            "cooldownLevel6": 160,
+            "cooldownLevel11": 145,
+            "cooldownLevel16": 130
+        },
+        {
+            "id": "Xerath",
+            "key": "101",
+            "cooldownLevel6": 130,
+            "cooldownLevel11": 115,
+            "cooldownLevel16": 100
+        },
+        {
+            "id": "XinZhao",
+            "key": "5",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 110,
+            "cooldownLevel16": 100
+        },
+        {
+            "id": "Yasuo",
+            "key": "157",
+            "cooldownLevel6": 80,
+            "cooldownLevel11": 55,
+            "cooldownLevel16": 30
+        },
+        {
+            "id": "Yorick",
+            "key": "83",
+            "cooldownLevel6": 160,
+            "cooldownLevel11": 130,
+            "cooldownLevel16": 100
+        },
+        {
+            "id": "Yuumi",
+            "key": "350",
+            "cooldownLevel6": 130,
+            "cooldownLevel11": 110,
+            "cooldownLevel16": 90
+        },
+        {
+            "id": "Zac",
+            "key": "154",
+            "cooldownLevel6": 130,
+            "cooldownLevel11": 115,
+            "cooldownLevel16": 100
+        },
+        {
+            "id": "Zed",
+            "key": "238",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 90,
+            "cooldownLevel16": 60
+        },
+        {
+            "id": "Ziggs",
+            "key": "115",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 95,
+            "cooldownLevel16": 70
+        },
+        {
+            "id": "Zilean",
+            "key": "26",
+            "cooldownLevel6": 120,
+            "cooldownLevel11": 90,
+            "cooldownLevel16": 60
+        },
+        {
+            "id": "Zoe",
+            "key": "142",
+            "cooldownLevel6": 11,
+            "cooldownLevel11": 8,
+            "cooldownLevel16": 5
+        },
+        {
+            "id": "Zyra",
+            "key": "143",
+            "cooldownLevel6": 130,
+            "cooldownLevel11": 120,
+            "cooldownLevel16": 110
+        }
+    ]
+}

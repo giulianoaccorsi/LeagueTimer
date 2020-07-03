@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (5.1.0)
+  - DynamicBlurView (4.0.0)
+  - PopupDialog (1.1.1):
+    - DynamicBlurView (~> 4.0)
+  - SnapKit (5.0.1)
+  - ValueStepper (1.6)
+
+DEPENDENCIES:
+  - Alamofire
+  - DynamicBlurView
+  - PopupDialog
+  - SnapKit
+  - ValueStepper
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DynamicBlurView
+    - PopupDialog
+    - SnapKit
+    - ValueStepper
+
+SPEC CHECKSUMS:
+  Alamofire: 9d5c5f602928e512395b30950c5984eca840093c
+  DynamicBlurView: ccf9acd2b20c883cc2c72e3524a04d8d3ee20533
+  PopupDialog: 720c92befd8bc23c13442254945213db5612f149
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  ValueStepper: 8b120c72c8d1391cd874a427485e2e57fda1a0b9
+
+PODFILE CHECKSUM: 3bfba7e597260c999cdeb0862a45d60a03685068
+
+COCOAPODS: 1.9.1
