@@ -22,7 +22,7 @@ class CircleTimer: UIView {
     var timerShadowOpacity: CGFloat = 0.25
     var ratioForShadowWidth: CGFloat = 1 / 20
     var ratioForBorderWidth: CGFloat = 1 / 20
-    var ratioForTimerDiameter: CGFloat = 16 / 20
+    var ratioForTimerDiameter: CGFloat = 1.5
     var filledLayer: CALayer? = nil
     var timerLayer: CALayer? = nil
     var timerFillDiameter: CGFloat = 0
@@ -33,7 +33,6 @@ class CircleTimer: UIView {
         layer.backgroundColor = timerBackgroundColor.cgColor
         let bWidth = bounds.width * ratioForBorderWidth
         layer.borderWidth = bWidth
-        layer.cornerRadius = self.frame.width / 2
         layer.borderColor = self.timerBorderColor.cgColor
         layer.shadowOpacity = Float(self.timerShadowOpacity)
         layer.shadowRadius = self.frame.width * ratioForShadowWidth

@@ -11,17 +11,11 @@ import SnapKit
 
 class ConfigurationViewController: UIViewController {
     
-    let timeLabel: UILabel = {
-        let label = UILabel(frame: .zero)
-        label.textColor = .white
-        label.font = UIFont(name: "HiraginoSans-W3", size: 20)
-        label.shadowColor = .black
-        label.shadowOffset = CGSize(width: 2, height: 2)
-        label.textAlignment = .center
-        return label
-    }()
+    var isImageTapped: Bool = true
+    var isImageTapped2: Bool = true
+    var indexImage = 0
     
-    let championPhoto: UIImageView = {
+    let spellPhoto: UIImageView = {
         let image = UIImageView(frame: .zero)
         image.image = #imageLiteral(resourceName: "Ashe")
         image.contentMode = .scaleAspectFill
@@ -29,50 +23,67 @@ class ConfigurationViewController: UIViewController {
         return image
     }()
     
-    let circleTimer: CircleTimer = {
-        let timer = CircleTimer()
-        return timer
+    let label: UILabel = {
+        let label = UILabel(frame: .zero)
+        label.textColor = .white
+        label.font = UIFont(name: "HiraginoSans-W3", size: 20)
+        label.shadowColor = .black
+        label.shadowOffset = CGSize(width: 2, height: 2)
+        label.textAlignment = .center
+        label.text = ""
+        return label
     }()
-    
-    var timer: Timer?
-    var timeLeft = 10
-    var isImageTapped: Bool = true
     
     override func loadView() {
         super.loadView()
         self.view.backgroundColor = .blue
-        buildViewHierarchy()
-        setUpConstraints()
-        setUpAdditionalConfiguration()
+        setUpView()
         setupGesture()
     }
     
     func setupGesture() {
-        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped))
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(indexImageTapped))
         tapGestureRecognizer.numberOfTapsRequired = 1
-        championPhoto.addGestureRecognizer(tapGestureRecognizer)
+        spellPhoto.addGestureRecognizer(tapGestureRecognizer)
     }
+    
+    @objc func indexImageTapped(_ sender: UITapGestureRecognizer) {
+        label.isHidden = false
+        indexImage += 1
+        switch indexImage {
+        case 1:
+            spellPhoto.image = grayscaleImage(image: spellPhoto.image ?? UIImage())
+            label.text = "1"
+        case 2:
+            label.text = "2"
+        case 3:
+            label.text = "3"
+        case 4:
+            label.text = "4"
+        case 5:
+            label.text = "5"
+        default:
+            label.text = ""
+            label.isHidden = true
+            spellPhoto.image = #imageLiteral(resourceName: "Ashe")
+            indexImage = 0
+        }
+        print("image tapped")
+    }
+    
     
     @objc func imageTapped(_ sender: UITapGestureRecognizer) {
         if isImageTapped {
             isImageTapped = false
-            timeLeft = 5
-            timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(onTimerFires), userInfo: nil, repeats: true)
-            championPhoto.image = grayscaleImage(image: championPhoto.image ?? UIImage())
-            circleTimer.startTimer(duration: CFTimeInterval(timeLeft))
+            label.isHidden = false
+            label.text = "-10%"
+            spellPhoto.image = grayscaleImage(image: spellPhoto.image ?? UIImage())
             print("image tapped")
-        }
-    }
-    
-    @objc func onTimerFires() {
-        timeLeft -= 1
-        timeLabel.text = "\(timeLeft)"
-        
-        if timeLeft <= 0 {
-            championPhoto.image = #imageLiteral(resourceName: "Ashe")
-            timeLabel.text = ""
+            return
+        }else {
             isImageTapped = true
-            timer?.invalidate()
+            spellPhoto.image = #imageLiteral(resourceName: "Ashe")
+            label.isHidden = true
         }
     }
     
@@ -86,32 +97,29 @@ class ConfigurationViewController: UIViewController {
 
 extension ConfigurationViewController: ViewConfiguration {
     func buildViewHierarchy() {
-        view.addSubview(championPhoto)
-        championPhoto.addSubview(circleTimer)
-        championPhoto.addSubview(timeLabel)
+        view.addSubview(spellPhoto)
+        spellPhoto.addSubview(label)
     }
     
     func setUpConstraints() {
         
-        championPhoto.snp.makeConstraints { (make) in
+        spellPhoto.snp.makeConstraints { (make) in
             make.leading.equalToSuperview().offset(30)
             make.top.equalToSuperview().offset(100)
             make.width.equalTo(60)
             make.height.equalTo(60)
         }
         
-        timeLabel.snp.makeConstraints { (make) in
+        
+        label.snp.makeConstraints { (make) in
             make.edges.equalToSuperview()
         }
         
-        circleTimer.snp.makeConstraints { (make) in
-            make.edges.equalToSuperview()
-        }
+        
     }
     
     func setUpAdditionalConfiguration() {
-        view.layoutIfNeeded()
-        circleTimer.setUpBaseLayer()
+        label.isHidden = true
     }
     
     

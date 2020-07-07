@@ -20,35 +20,29 @@ class MatchTableViewCell: UITableViewCell {
     
     let championPhoto: UIImageView = {
         let image = UIImageView(frame: .zero)
-        image.image = #imageLiteral(resourceName: "Ashe")
         image.contentMode = .scaleAspectFill
+        image.isUserInteractionEnabled = true
+        image.clipsToBounds = true
         return image
     }()
     
-    let firstSummonerSpell: UIImageView = {
-        let image = UIImageView(frame: .zero)
-        image.image = #imageLiteral(resourceName: "SummonerHeal")
-        image.contentMode = .scaleAspectFill
-        return image
+    let firstSummonerSpell: CooldownView = {
+        let view = CooldownView()
+        return view
     }()
     
-    let secondSummonerSpell: UIImageView = {
-        let image = UIImageView(frame: .zero)
-        image.contentMode = .scaleAspectFill
-        image.image = #imageLiteral(resourceName: "SummonerBarrier")
-        return image
+    let secondSummonerSpell: CooldownView = {
+        let view = CooldownView()
+        return view
     }()
     
-    let ultimatePhoto: UIImageView = {
-        let image = UIImageView(frame: .zero)
-        image.image = #imageLiteral(resourceName: "AsheR")
-        image.contentMode = .scaleAspectFill
-        return image
+    let ultimatePhoto: CooldownView = {
+        let view = CooldownView()
+        return view
     }()
     
     let ionianBootsPhoto: UIImageView = {
         let image = UIImageView(frame: .zero)
-        image.backgroundColor = .cyan
         image.image = UIImage(named: "BotaIonia")
         return image
     }()
@@ -100,9 +94,9 @@ class MatchTableViewCell: UITableViewCell {
     func setupCell(player: PlayerApp) {
         setUpView()
         self.championPhoto.image = player.imageChampion
-        self.ultimatePhoto.image = player.imageUltimate
-        self.firstSummonerSpell.image = player.imageSpell1
-        self.secondSummonerSpell.image = player.imageSpell2
+        self.ultimatePhoto.setupCustomView(photo: player.imageUltimate, time: player.cooldown6)
+        self.firstSummonerSpell.setupCustomView(photo: player.imageSpell1, time: player.cooldownSpell1)
+        self.secondSummonerSpell.setupCustomView(photo: player.imageSpell2, time: player.cooldownSpell2)
     }
 }
 
@@ -197,6 +191,7 @@ extension MatchTableViewCell: ViewConfiguration {
     
     func setUpAdditionalConfiguration() {
         self.backgroundColor = .background
+        self.layoutIfNeeded()
         
     }
     

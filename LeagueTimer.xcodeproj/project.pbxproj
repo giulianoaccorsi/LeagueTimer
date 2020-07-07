@@ -9,8 +9,10 @@
 /* Begin PBXBuildFile section */
 		19157D0424A56605008C1C07 /* PlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19157D0324A56605008C1C07 /* PlayerApp.swift */; };
 		192A7D8A24AECB7D00DADF58 /* CircleTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192A7D8924AECB7D00DADF58 /* CircleTimer.swift */; };
+		1956725324AFAC56001B91DC /* CooldownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1956725224AFAC56001B91DC /* CooldownView.swift */; };
 		19597F13249BFBF000748E65 /* UIColor+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19597F12249BFBF000748E65 /* UIColor+Custom.swift */; };
 		19597F16249BFC6E00748E65 /* SummonerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19597F15249BFC6E00748E65 /* SummonerViewController.swift */; };
+		198FB5CC24B3B715006ABB44 /* CooldownItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198FB5CB24B3B715006ABB44 /* CooldownItemsView.swift */; };
 		19AE0D0E249A895700014F12 /* champion.json in Resources */ = {isa = PBXBuildFile; fileRef = 19AE0D0D249A895700014F12 /* champion.json */; };
 		19AE0D10249A895D00014F12 /* spells.json in Resources */ = {isa = PBXBuildFile; fileRef = 19AE0D0F249A895D00014F12 /* spells.json */; };
 		19B832EC249CF270008FB9DA /* friz-quadrata-bold-bt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19B832EB249CF26C008FB9DA /* friz-quadrata-bold-bt.ttf */; };
@@ -42,8 +44,10 @@
 /* Begin PBXFileReference section */
 		19157D0324A56605008C1C07 /* PlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerApp.swift; sourceTree = "<group>"; };
 		192A7D8924AECB7D00DADF58 /* CircleTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTimer.swift; sourceTree = "<group>"; };
+		1956725224AFAC56001B91DC /* CooldownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooldownView.swift; sourceTree = "<group>"; };
 		19597F12249BFBF000748E65 /* UIColor+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Custom.swift"; sourceTree = "<group>"; };
 		19597F15249BFC6E00748E65 /* SummonerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummonerViewController.swift; sourceTree = "<group>"; };
+		198FB5CB24B3B715006ABB44 /* CooldownItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooldownItemsView.swift; sourceTree = "<group>"; };
 		19AE0D0D249A895700014F12 /* champion.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = champion.json; sourceTree = "<group>"; };
 		19AE0D0F249A895D00014F12 /* spells.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = spells.json; sourceTree = "<group>"; };
 		19B832EB249CF26C008FB9DA /* friz-quadrata-bold-bt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "friz-quadrata-bold-bt.ttf"; sourceTree = "<group>"; };
@@ -159,7 +163,6 @@
 		19BC423A24994CB200F9678F /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				192A7D8924AECB7D00DADF58 /* CircleTimer.swift */,
 				19BC423724994AE700F9678F /* ConfigurationViewController.swift */,
 				19597F14249BFC3800748E65 /* SummonerSelection */,
 				19B832ED249D0823008FB9DA /* MatchView */,
@@ -209,8 +212,11 @@
 		19F87DD4249AA692008782C1 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				192A7D8924AECB7D00DADF58 /* CircleTimer.swift */,
+				1956725224AFAC56001B91DC /* CooldownView.swift */,
 				19F87DD5249AA6A1008782C1 /* ViewConfiguration.swift */,
 				19597F12249BFBF000748E65 /* UIColor+Custom.swift */,
+				198FB5CB24B3B715006ABB44 /* CooldownItemsView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -363,6 +369,7 @@
 				19FDA7E3249D6F4D0093ACA5 /* Champion.swift in Sources */,
 				19E60AC1249A8A1200864DC4 /* APIManager.swift in Sources */,
 				19FDA7E5249D72A50093ACA5 /* Spell.swift in Sources */,
+				198FB5CC24B3B715006ABB44 /* CooldownItemsView.swift in Sources */,
 				19C4C892249C0F490094B0B2 /* SummonerController.swift in Sources */,
 				19BC4225249949D200F9678F /* MatchViewController.swift in Sources */,
 				19597F16249BFC6E00748E65 /* SummonerViewController.swift in Sources */,
@@ -376,6 +383,7 @@
 				192A7D8A24AECB7D00DADF58 /* CircleTimer.swift in Sources */,
 				19C4C894249C17900094B0B2 /* SummonerDataSource.swift in Sources */,
 				19F87DD3249AA3B3008782C1 /* MatchController.swift in Sources */,
+				1956725324AFAC56001B91DC /* CooldownView.swift in Sources */,
 				19F87DD9249AA959008782C1 /* MatchTableViewCell.swift in Sources */,
 				19BC4223249949D200F9678F /* SceneDelegate.swift in Sources */,
 				19C4C89A249C2BCA0094B0B2 /* CoreSummoner.xcdatamodeld in Sources */,
