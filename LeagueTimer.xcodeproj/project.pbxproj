@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		162887F524F545BF0084C352 /* PerkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162887F424F545BF0084C352 /* PerkView.swift */; };
 		19157D0424A56605008C1C07 /* PlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19157D0324A56605008C1C07 /* PlayerApp.swift */; };
 		192A7D8A24AECB7D00DADF58 /* CircleTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192A7D8924AECB7D00DADF58 /* CircleTimer.swift */; };
 		1956725324AFAC56001B91DC /* CooldownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1956725224AFAC56001B91DC /* CooldownView.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		162887F424F545BF0084C352 /* PerkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerkView.swift; sourceTree = "<group>"; };
 		19157D0324A56605008C1C07 /* PlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerApp.swift; sourceTree = "<group>"; };
 		192A7D8924AECB7D00DADF58 /* CircleTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTimer.swift; sourceTree = "<group>"; };
 		1956725224AFAC56001B91DC /* CooldownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooldownView.swift; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 		19F87DD4249AA692008782C1 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				162887F424F545BF0084C352 /* PerkView.swift */,
 				192A7D8924AECB7D00DADF58 /* CircleTimer.swift */,
 				1956725224AFAC56001B91DC /* CooldownView.swift */,
 				19F87DD5249AA6A1008782C1 /* ViewConfiguration.swift */,
@@ -387,6 +390,7 @@
 				19F87DD9249AA959008782C1 /* MatchTableViewCell.swift in Sources */,
 				19BC4223249949D200F9678F /* SceneDelegate.swift in Sources */,
 				19C4C89A249C2BCA0094B0B2 /* CoreSummoner.xcdatamodeld in Sources */,
+				162887F524F545BF0084C352 /* PerkView.swift in Sources */,
 				19E60ABF249A8A0A00864DC4 /* API.swift in Sources */,
 				19E60AC6249A8C3700864DC4 /* Spectator.swift in Sources */,
 			);

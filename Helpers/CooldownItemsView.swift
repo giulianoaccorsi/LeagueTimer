@@ -52,11 +52,11 @@ class CooldownItemsView: UIView {
         itemPhoto.addGestureRecognizer(tapGestureRecognizer)
     }
     
-    func setupGesture() {
-        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(indexImageTapped))
-        tapGestureRecognizer.numberOfTapsRequired = 1
-        itemPhoto.addGestureRecognizer(tapGestureRecognizer)
-    }
+//    func setupGesture() {
+//        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(indexImageTapped))
+//        tapGestureRecognizer.numberOfTapsRequired = 1
+//        itemPhoto.addGestureRecognizer(tapGestureRecognizer)
+//    }
     
     @objc func indexImageTapped(_ sender: UITapGestureRecognizer) {
         labelTouched.isHidden = false
