@@ -16,7 +16,7 @@ class ConfigurationViewController: UIViewController {
     override func loadView() {
         super.loadView()
         self.view.backgroundColor = .blue
-        perkView = PerkView(typeView: .image, delegate: self)
+        perkView = PerkView(typeView: .image)
         perkView?.isUserInteractionEnabled = true
         setUpView()
     }
@@ -31,15 +31,15 @@ extension ConfigurationViewController: ViewConfiguration {
     func setUpConstraints() {
         guard let safePerkView = perkView else{return}
         safePerkView.snp.makeConstraints { (make) in
-            make.leading.equalToSuperview().offset(20)
-            make.top.equalToSuperview().offset(20)
-            make.width.equalTo(60)
+            make.topMargin.equalTo(30)
+            make.leading.equalTo(40)
             make.height.equalTo(60)
+            make.width.equalTo(60)
         }
     }
     
     func setUpAdditionalConfiguration() {
-        perkView?.backgroundColor = .cyan
+        perkView?.backgroundColor = .yellow
     }
 }
 

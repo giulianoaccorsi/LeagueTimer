@@ -41,16 +41,14 @@ class MatchTableViewCell: UITableViewCell {
         return view
     }()
     
-    let ionianBootsPhoto: UIImageView = {
-        let image = UIImageView(frame: .zero)
-        image.image = UIImage(named: "BotaIonia")
+    let ionianBootsPhoto: PerkView = {
+        let image = PerkView(typeView: .image)
         return image
     }()
     
     
-    let perkPhoto: UIImageView = {
-        let image = UIImageView(frame: .zero)
-        image.image = UIImage(named: "CosmicInsight")
+    let perkPhoto: PerkView = {
+        let image = PerkView(typeView: .image)
         image.contentMode = .scaleAspectFill
         return image
     }()
@@ -63,9 +61,8 @@ class MatchTableViewCell: UITableViewCell {
         return image
     }()
     
-    let ultimateHunterPhoto: UIImageView = {
-        let image = UIImageView(frame: .zero)
-        image.image = UIImage(named: "UltimateHunter")
+    let ultimateHunterPhoto: PerkView = {
+        let image = PerkView(typeView: .perk)
         image.contentMode = .scaleAspectFill
         return image
     }()
@@ -98,7 +95,24 @@ class MatchTableViewCell: UITableViewCell {
         self.firstSummonerSpell.setupCustomView(photo: player.imageSpell1, time: player.cooldownSpell1)
         self.secondSummonerSpell.setupCustomView(photo: player.imageSpell2, time: player.cooldownSpell2)
     }
+    
+    @objc func changeUltimateValue(sender: UISegmentedControl) {
+        switch sender.selectedSegmentIndex {
+        case 1:
+            print("11")
+        case 2:
+            print("16")
+        default:
+            print("6")
+        }
+    }
+    
+    
+    @objc func changeCDRValue(sender: ValueStepper) {
+        print(sender.value)
+    }
 }
+
 
 extension MatchTableViewCell: ViewConfiguration {
     func buildViewHierarchy() {
@@ -192,10 +206,30 @@ extension MatchTableViewCell: ViewConfiguration {
     func setUpAdditionalConfiguration() {
         self.backgroundColor = .background
         self.layoutIfNeeded()
+        self.ionianBootsPhoto.setupPhoto(photo: UIImage(named: "BotaIonia") ?? UIImage())
+        self.perkPhoto.setupPhoto(photo: UIImage(named: "CosmicInsight") ?? UIImage())
+        self.ultimateHunterPhoto.setupPhoto(photo: UIImage(named: "UltimateHunter") ?? UIImage())
+        self.ionianBootsPhoto.delegate = self
+        self.perkPhoto.delegate = self
+        self.ultimateHunterPhoto.delegate = self
+        ultimateSegmentControl.addTarget(self, action: #selector(changeUltimateValue), for: .valueChanged)
+        valueStepper.addTarget(self, action: #selector(changeCDRValue(sender:)), for: .valueChanged)
         
     }
     
     
 }
 
+extension MatchTableViewCell: PerkViewDelegate {
+    func updateIndex(index: Int) {
+        print("Index Changed \(index)")
+    }
+    
+    func imageTapped(isTapped: Bool) {
+        print("ImagedTapped: \(isTapped)")
+        
+    }
+    
+    
+}
 

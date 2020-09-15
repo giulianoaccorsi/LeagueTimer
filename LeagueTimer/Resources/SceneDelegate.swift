@@ -25,7 +25,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
-        let homeViewController = ConfigurationViewController()
+        let homeViewController = SummonerViewController()
         let navigation = UINavigationController(rootViewController: homeViewController)
         
         

@@ -20,29 +20,13 @@ protocol PerkViewDelegate {
 
 class PerkView: UIView {
     
-    
-    
-    
-    
-    
-    
     var isImageTapped: Bool = true
     var indexImage = 0
-    var delegate: PerkViewDelegate
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    var delegate: PerkViewDelegate?
+    var colorImage: UIImage?
     
     let spellPhoto: UIImageView = {
         let image = UIImageView(frame: .zero)
-        image.image = #imageLiteral(resourceName: "Ashe")
         image.contentMode = .scaleAspectFill
         image.isUserInteractionEnabled = true
         return image
@@ -51,7 +35,7 @@ class PerkView: UIView {
     let label: UILabel = {
         let label = UILabel(frame: .zero)
         label.textColor = .white
-        label.font = UIFont(name: "HiraginoSans-W3", size: 20)
+        label.sizeToFit()
         label.shadowColor = .black
         label.shadowOffset = CGSize(width: 2, height: 2)
         label.textAlignment = .center
@@ -59,8 +43,7 @@ class PerkView: UIView {
         return label
     }()
     
-    init(typeView: TypeImage, delegate: PerkViewDelegate) {
-        self.delegate = delegate
+    init(typeView: TypeImage) {
         super.init(frame: .zero)
         setUpView()
         if typeView == .perk {
@@ -72,6 +55,11 @@ class PerkView: UIView {
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    func setupPhoto(photo: UIImage) {
+        spellPhoto.image = photo
+        colorImage = photo
     }
     
     func setupGesturePerk() {
@@ -89,7 +77,6 @@ class PerkView: UIView {
     @objc func indexImageTapped(_ sender: UITapGestureRecognizer) {
         label.isHidden = false
         indexImage += 1
-        self.delegate.updateIndex(index: indexImage)
         switch indexImage {
         case 1:
             spellPhoto.image = grayscaleImage(image: spellPhoto.image ?? UIImage())
@@ -105,10 +92,10 @@ class PerkView: UIView {
         default:
             label.text = ""
             label.isHidden = true
-            spellPhoto.image = #imageLiteral(resourceName: "Ashe")
+            spellPhoto.image = colorImage
             indexImage = 0
         }
-        print("image tapped")
+        self.delegate?.updateIndex(index: indexImage)
     }
     
     
@@ -118,14 +105,12 @@ class PerkView: UIView {
             label.isHidden = false
             label.text = "-10%"
             spellPhoto.image = grayscaleImage(image: spellPhoto.image ?? UIImage())
-            print("image tapped")
-            return
         }else {
             isImageTapped = true
-            spellPhoto.image = #imageLiteral(resourceName: "Ashe")
+            spellPhoto.image = colorImage
             label.isHidden = true
         }
-        self.delegate.imageTapped(isTapped: isImageTapped)
+        self.delegate?.imageTapped(isTapped: isImageTapped)
     }
     
     func grayscaleImage(image: UIImage) -> UIImage {
@@ -159,6 +144,5 @@ extension PerkView: ViewConfiguration {
     
     func setUpAdditionalConfiguration() {
         label.isHidden = true
-        self.backgroundColor = .blue
     }
 }
