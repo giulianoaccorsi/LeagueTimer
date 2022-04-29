@@ -15,6 +15,11 @@ struct ChampionResult: Codable {
 }
 
 // MARK: - Champion
+
+
+
+
+
 struct Champion: Codable {
     let id, key: String
     let cooldownLevel6: Int

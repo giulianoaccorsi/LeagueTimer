@@ -16,4 +16,11 @@ struct Summoner: Codable {
         case accountID = "accountId"
         case name
     }
+    
+    
+    
+    
+    
+    
+    
 }

@@ -10,6 +10,13 @@
 import Foundation
 import CoreData
 
+
+
+
+
+
+
+
 class DataManager {
     
     private let summonerEntity: String = "CoreSummoner"
